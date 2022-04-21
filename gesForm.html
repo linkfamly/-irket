@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./gesForm.css">
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">GES Bilgi Formu</div>
+        <form action="/" method="POST">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Ad-Soyad</span>
+                    <input type="text" name="userName" placeholder="Adınızı Girin" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Tesis İsmi Girin</span>
+                    <input type="text" name="tesisName" placeholder="Tesis Adı Girin" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Tarih </span>
+                    <input type="date" name="date" placeholder="" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Montaj Yapılan Panel Sayısı </span>
+                    <input type="number" name="number" placeholder="Sayı Girin" required>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Kayıt Et">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
